@@ -1,5 +1,9 @@
 from django.contrib import admin
 
-from ads.models import Ads
+from ads.models.ad import Ad
+from ads.models.category import Category
+from ads.models.location import Location
 
-admin.site.register(Ads)
+admin.site.register(Ad)
+admin.site.register(Category)
+admin.site.register(Location)
